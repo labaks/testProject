@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.mybrowser;
 
 import org.junit.Test;
 
