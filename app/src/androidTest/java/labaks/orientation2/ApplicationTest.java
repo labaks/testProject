@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.orientation2;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.orientation2;
 
 import org.junit.Test;
 
