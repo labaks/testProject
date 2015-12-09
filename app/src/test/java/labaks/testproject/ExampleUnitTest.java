@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.sqlitequery;
 
 import org.junit.Test;
 
