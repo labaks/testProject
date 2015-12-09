@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">testProject</string>
+    <string name="app_name">Converter</string>
+
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="in_meters">В метрах</string>
+    <string name="in_parrots">В попугаях</string>
+    <string name="convert">Конвертировать</string>
+    <string name="nothing_to_convert">Конвертировать нечего :(</string>
 </resources>

@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.converter;
 
 import org.junit.Test;
 

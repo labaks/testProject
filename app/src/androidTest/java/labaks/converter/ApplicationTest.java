@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.converter;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
