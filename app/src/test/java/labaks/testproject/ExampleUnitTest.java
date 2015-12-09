@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.workwithcamera;
 
 import org.junit.Test;
 
