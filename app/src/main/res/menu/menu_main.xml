@@ -1,9 +1,21 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="labaks.testproject.MainActivity">
+    tools:context=".MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/actionOpen"
+        android:icon="@drawable/open_icon"
+        android:orderInCategory="100"
+        android:title="@string/action_open"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/actionSave"
+        android:icon="@drawable/save_icon"
+        android:orderInCategory="100"
+        android:title="@string/action_save"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/actionSettings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />

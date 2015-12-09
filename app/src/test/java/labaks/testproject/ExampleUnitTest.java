@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.texteditor;
 
 import org.junit.Test;
 
