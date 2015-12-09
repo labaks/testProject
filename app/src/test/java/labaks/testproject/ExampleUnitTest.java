@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.clickprocessor;
 
 import org.junit.Test;
 
