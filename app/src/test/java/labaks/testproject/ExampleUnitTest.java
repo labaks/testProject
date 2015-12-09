@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.manyactivities;
 
 import org.junit.Test;
 

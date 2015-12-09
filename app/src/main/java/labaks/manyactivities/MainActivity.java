@@ -1,15 +1,16 @@
-package labaks.testproject;
+package labaks.manyactivities;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends ActionBarActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +38,26 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onClickAbout(View view) {
+        Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickSecondActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+        startActivity(intent);
+    }
+
+    public void onClickSent(View view) {
+        EditText userEditText = (EditText) findViewById(R.id.whom);
+        EditText giftEditText = (EditText) findViewById(R.id.description);
+
+        Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+
+        intent.putExtra("user", userEditText.getText().toString());
+        intent.putExtra("gift", giftEditText.getText().toString());
+        startActivity(intent);
     }
 }
