@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.simplepaint;
 
 import org.junit.Test;
 
