@@ -1,4 +1,26 @@
 <resources>
-    <string name="app_name">testProject</string>
+    <string name="app_name">Messenger</string>
+
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="call_message">Вызвать уведомление</string>
+    <string name="last">Последнее предупреждение!!!!!</string>
+    <string name="mess">Предупреждение</string>
+    <string name="do_not">Больше не счелкай меня!</string>
+    <string name="message_with_buttons">Уведомление с кнопками</string>
+    <string name="message_long">Уведомление с длинным текстом</string>
+    <string name="message_big_image">Уведомление с большой картинкой</string>
+    <string name="message_inbox">Уведомление в стиле Inbox</string>
+    <string name="important_message">Текст Важного уведомления</string>
+    <string name="open">Открыть</string>
+    <string name="close">Отказаться</string>
+    <string name="other">Другой вариант</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="long_message_content">Это совершенно не несущий никакой смысловой нагрузки, но, зато, очень длинный, текст, который будет вставлен в уведомление с длинным текстом</string>
+    <string name="first_mess">Первое сообщение</string>
+    <string name="second_mess">Второе сообщение</string>
+    <string name="third_mess">Третье сообщение</string>
+    <string name="fourth_mess">Четертое сообщениеэ</string>
+    <string name="fifth_mess">Пятое сообщение</string>
+    <string name="more">+2 еще</string>
 </resources>

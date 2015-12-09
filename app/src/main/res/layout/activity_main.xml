@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,10 +6,54 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="labaks.testproject.MainActivity">
+    tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:onClick="onClick"
+        android:text="@string/call_message" />
+
+    <Button
+        android:id="@+id/btBasicNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendActionNotification"
+        android:text="@string/message_with_buttons" />
+
+    <Button
+        android:id="@+id/btBigTextNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btBasicNotification"
+        android:layout_alignStart="@+id/btBasicNotification"
+        android:layout_below="@+id/btBasicNotification"
+        android:onClick="sendBigTextStyleNotification"
+        android:text="@string/message_long" />
+
+    <Button
+        android:id="@+id/btBigPictureNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btBigTextNotification"
+        android:layout_alignStart="@+id/btBigTextNotification"
+        android:layout_below="@+id/btBigTextNotification"
+        android:onClick="sendBigPictureStyleNotification"
+        android:text="@string/message_big_image" />
+
+    <Button
+        android:id="@+id/btInboxStyleNotification"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btBigPictureNotification"
+        android:layout_alignStart="@+id/btBigPictureNotification"
+        android:layout_below="@+id/btBigPictureNotification"
+        android:onClick="sendInboxStyleNotification"
+        android:text="@string/message_inbox" />
 </RelativeLayout>

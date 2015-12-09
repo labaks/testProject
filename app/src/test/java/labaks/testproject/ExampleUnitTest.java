@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.messenger;
 
 import org.junit.Test;
 
