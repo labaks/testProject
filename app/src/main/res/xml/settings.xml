@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="hints"
+        android:summary="@string/hints_summary"
+        android:title="@string/hints_title" />
+    <SwitchPreference
+        android:dependency="hints"
+        android:key="wifi"
+        android:summaryOff="@string/wifi_off"
+        android:summaryOn="@string/wifi_on"
+        android:switchTextOff="@string/off"
+        android:switchTextOn="@string/on" />
+    <PreferenceCategory android:title="@string/font_settings">
+        <EditTextPreference
+            android:defaultValue="14"
+            android:dialogTitle="@string/font_size_dialog_title"
+            android:key="@string/pref_size"
+            android:summary="@string/font_size_summary"
+            android:title="@string/font_size" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/font_style_dialog_title"
+            android:entries="@array/text_style"
+            android:entryValues="@array/text_style"
+            android:key="@string/pref_style"
+            android:summary="@string/font_style_summary"
+            android:title="@string/font_style_title" />
+        <PreferenceScreen
+            android:key="@string/pref_color"
+            android:summary="@string/font_color_summary"
+            android:title="@string/font_color_title">
+
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="@string/pref_color_black"
+                android:summary="@string/font_black_summary"
+                android:title="@string/font_black" />
+            <CheckBoxPreference
+                android:key="@string/pref_color_blue"
+                android:summary="@string/font_blue_summary"
+                android:title="@string/font_blue" />
+
+            <CheckBoxPreference
+                android:key="@string/pref_color_red"
+                android:summary="@string/font_red_summary"
+                android:title="@string/font_red" />
+
+            <CheckBoxPreference
+                android:key="@string/pref_color_green"
+                android:summary="@string/font_green_summary"
+                android:title="@string/font_green" />
+
+
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <RingtonePreference
+        android:key="@string/settings_ringtone"
+        android:showDefault="true"
+        android:showSilent="true"
+        android:summary="@string/ringtones_summary"
+        android:title="@string/ringtones" />
+</PreferenceScreen>

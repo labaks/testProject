@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.preferencessettings;
 
 import org.junit.Test;
 

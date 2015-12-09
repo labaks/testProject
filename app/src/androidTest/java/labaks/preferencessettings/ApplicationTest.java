@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.preferencessettings;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
