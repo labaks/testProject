@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.sherlock;
 
 import org.junit.Test;
 

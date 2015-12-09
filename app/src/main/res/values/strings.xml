@@ -1,4 +1,12 @@
 <resources>
-    <string name="app_name">testProject</string>
+    <string name="app_name">Choose</string>
+
     <string name="action_settings">Settings</string>
+    <string name="do_choose">Сделать выбор</string>
+    <string name="choose">Сделайте выбор</string>
+    <string name="title_activity_choose">Choose</string>
+    <string name="crow">Ворона</string>
+    <string name="cat">Кот</string>
+    <string name="dog">Пёс</string>
+    <string name="your_choose">Сделай свой выбор</string>
 </resources>
