@@ -1,4 +1,17 @@
 <resources>
-    <string name="app_name">testProject</string>
+    <string name="app_name">Manual</string>
+
     <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="xqisit_lz380_gold">Наушники Xqisit LZ380 matt gold</string>
+    <string name="xqisit_lz380_silver">Наушники Xqisit LZ380 matt silver</string>
+    <string name="xqisit_lz380_black">Наушники Xqisit LZ380 glossy Black</string>
+    <string name="senheiser_mx170">Наушники Sennheiser MX 170</string>
+    <string name="elecom_ehp_cs3520bk_g">Наушники Elecom (EHP-CS3520BK-G) + гарнитура черные</string>
+    <string name="senheiser_cx150">Sennheiser CX 150 (черный)</string>
+    <string name="elecom_ehp_c3550wh">Наушники Elecom (EHP-C3550WH) белые</string>
+    <string name="xqisit_universal">Наушники Xqisit universal Headset PTT (12504) White+гарнитура</string>
+    <string name="elecom_EHP_CS3520BU_G">Наушники Elecom (EHP-CS3520BU-G) + гарнитура синие</string>
+    <string name="rapoo_h6060_white">RAPOO Wireless Stereo Headset H6060 White</string>
+
 </resources>
