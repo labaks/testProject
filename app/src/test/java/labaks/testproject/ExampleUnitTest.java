@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.cowsaysmoo;
 
 import org.junit.Test;
 
