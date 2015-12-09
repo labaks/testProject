@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.menudemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

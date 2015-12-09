@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.menudemo;
 
 import org.junit.Test;
 
