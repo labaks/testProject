@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.localeapp;
 
 import org.junit.Test;
 

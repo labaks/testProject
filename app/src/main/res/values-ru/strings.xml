@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Локализованное приложение</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="mon">понедельник</string>
+    <string name="tues">Вторник</string>
+    <string name="wedn">Среда</string>
+    <string name="thur">Четверг</string>
+    <string name="fri">Пятница</string>
+    <string name="sat">Суббота</string>
+    <string name="sun">Воскресенье</string>
+    <string name="january">Январь</string>
+    <string name="february">Февраль</string>
+    <string name="march">Март</string>
+    <string name="april">Апрель</string>
+    <string name="may">Май</string>
+    <string name="june">Июнь</string>
+    <string name="july">Июль</string>
+    <string name="august">Август</string>
+    <string name="september">Сентябрь</string>
+    <string name="october">Октябрь</string>
+    <string name="november">Ноябрь</string>
+    <string name="december">Декабрь</string>
+    <string name="your_choose">Вы выбрали</string>
+    <string name="deleted">Удален</string>
+    <string name="and">и</string>
+
+</resources>
