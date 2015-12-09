@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.hellokitty;
 
 import org.junit.Test;
 
