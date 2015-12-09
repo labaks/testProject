@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.lights;
 
 import org.junit.Test;
 
