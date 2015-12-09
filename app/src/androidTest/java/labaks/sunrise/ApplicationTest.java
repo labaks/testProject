@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.sunrise;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

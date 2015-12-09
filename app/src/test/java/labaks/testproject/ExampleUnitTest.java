@@ -1,4 +1,4 @@
-package labaks.testproject;
+package labaks.sunrise;
 
 import org.junit.Test;
 
